@@ -3,7 +3,7 @@ export default{
   data(){
     return{
       title: "The Birth of websites,applications",
-      description: "Googleをはじめ、有名なIT企業、WEBサービス、アプリーケーションがいつできたかを知っていますか？"
+      description: "有名なIT企業、WEBサービス、アプリーケーションの誕生日を知っていますか？"
     }
   }
 }

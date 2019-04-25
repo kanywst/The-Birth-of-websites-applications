@@ -304,7 +304,7 @@
     "date": "2001-11-12",
     "name": "LiveJasmin",
     "type": "porn",
-    "img": "livejasmin.jpg",
+    "img": "livejasmin.jpeg",
     "description": "ハンガリーの起業家GyörgyGattyánによって2001年に国内のハンガリーの聴衆のためにjasmin.huとして設立された。"
   },
   {
@@ -348,5 +348,12 @@
     "type": "knowledge market",
     "img": "quora.png",
     "description": "かつてFacebookに勤務していたアダム・ディアンジェロとチャーリー・シーヴァーとの共同で設立された。ディアンジェロは、2010年1月にQuoraを立ち上げるためにFacebookを退職している。ディアンジェロは、自身とシーヴァーがQuoraを立ち上げた理由は「インターネット上ではどの分野だろうと疑問や答えが大量のサイトにあると考えたけど、未だに誰かが主導して本当に良かったものを構築する人が居なかったから」と述べている。2010年12月においてQuoraのユーザー数が急増を見せた。"
+  },
+  {
+    "date": "1998-09",
+    "name": "Amazon Japan",
+    "type": "EC",
+    "img": "amazoncojp.png",
+    "description": "2000年11月1日にAmazon.comの日本語版サイト「Amazon.co.jp」としてオープンして以来、事実上1社が独占的に提供する電子商取引としては、日本最大を誇るECサイトである。"
   }
 ]

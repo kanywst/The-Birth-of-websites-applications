@@ -2,7 +2,7 @@
 export default{
   data(){
     return {
-      copyright: "Copyright &copy; The Birth of websites,applications 2019"
+      copyright: "Copyright © The Birth of websites,applications 2019"
     }
   }
 }
@@ -16,6 +16,8 @@ export default{
 
 <style>
 footer{
+  padding-top: 15px;
+  padding-bottom: 10px;
   text-align: center;
 }
 </style>
