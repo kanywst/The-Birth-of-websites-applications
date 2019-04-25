@@ -1,6 +1,6 @@
 # The Birth of websites
 
-> The Birth of websites,aplications
+> The Birth of websites,aplications.
 
 ## Build Setup
 
