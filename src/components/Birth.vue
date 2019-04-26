@@ -1,9 +1,35 @@
 <script>
+//検索
+const search = (keyword,items) => {
+  var keyword_items = [];
+  for(var i in items){
+    var pre_keyword = items[i];
+    if(pre_keyword.name.indexOf(keyword) !== -1){
+      keyword_items.push(pre_keyword);
+    }else if(pre_keyword.description.indexOf(keyword) !== -1){
+      keyword_items.push(pre_keyword);
+    }
+  }
+  return keyword_items;
+}
 
 export default{
+
   data(){
     return{
+      isActive: 'All',
       keyword: '',
+      active: false, //Make all the default active
+      //type
+      filter_type: '',
+      filter_type_list: ['All','SNS','EC','portal site','IT','internet','porn','hardware','software','search engine','blog','video sharing','image management','search engine','knowledge market','social news','online storage','online database','version control','messenger','streaming','short URL','consulting'],
+      //nationality
+      filter_nationality: '',
+      filter_nationality_list: ['japan','america','germany','ireland','china'],
+      //era
+      filter_era: '',
+      filter_era_list: ['heisei','showa','taisho','meiji'],
+      //jsonファイルを読み込む
       items: require("../../info.json")
     }
   },
@@ -12,20 +38,42 @@ export default{
       return this.items.sort((a,b) => {
         return (a.date < b.date) ? -1 : (a.date > b.date ) ? 1 : 0
       })
-    },filteredItems(){
-      if(this.keyword != ''){
-        var filtered_items = [];
-        for(var i in this.items){
-          var pre_name = this.sortedItemsByDate[i];
-          if(pre_name.name.indexOf(this.keyword) !== -1){
-            filtered_items.push(pre_name);
-          }else if(pre_name.description.indexOf(this.keyword) !== -1){
-            filtered_items.push(pre_name);
+    },
+    filteredItems(){
+      if(this.active){
+        //type
+          if(this.filter_type != ''){
+            var filtered_items = [];
+            for(var i in this.items){
+              var pre_name = this.sortedItemsByDate[i];
+              if(pre_name.type.indexOf(this.filter_type) !== -1){
+                filtered_items.push(pre_name);
+              }
+            }
+            //検索
+            if(this.keyword != ''){
+              return search(this.keyword,filtered_items);
+            }else{
+              return filtered_items;
+            }
           }
-        }
-        return filtered_items;
+        }else{
+          if(this.keyword != ''){
+            return search(this.keyword,this.sortedItemsByDate);
+          }else{
+            return this.sortedItemsByDate;
+          }
+      }
+    }
+  },
+  methods: {
+    type_filter(event){
+      this.isActive = event;
+      if(event == "All"){
+        this.active = false;
       }else{
-        return this.sortedItemsByDate;
+        this.active = true;
+        this.filter_type = event;
       }
     }
   }
@@ -37,6 +85,27 @@ export default{
     <!-- Search -->
     <div class="form-group">
       <input type="text" v-model="keyword"　placeholder="Search">
+    </div>
+    <!-- Filter -->
+    <div class="filter-items-group">
+      <!-- type -->
+      <div class="filter-items">
+        <span v-for="filter in filter_type_list">
+          <button href="#" v-on:click="type_filter(filter)" :class="{'active': isActive === filter}">{{ filter }}</button>
+        </span>
+      </div>
+      <!-- nationality -->
+      <div class="filter-items">
+        <span class="filter-item" v-for="filter in filter_nationality_list">
+          <button v-on:click="type_filter(filter)" :class="{'active': isActive === filter}">{{ filter }}</button>
+        </span>
+      </div>
+      <!-- era -->
+      <div class="filter-items">
+        <span v-for="filter in filter_era_list">
+          <button v-on:click="type_filter(filter)" :class="{'active': isActive === filter}">{{ filter }}</button>
+        </span>
+      </div>
     </div>
     <div class="container">
       <div v-for="item in filteredItems" :key="item.name">
@@ -69,6 +138,24 @@ export default{
   border-bottom: 1px solid rgba(0,0,0,.4);
 }
 
+.filter-items-group {
+  padding-top: 15px;
+}
+.filter-items {
+  text-align: center;
+}
+.filter-items button{
+  /*outline: 0;*/
+  border: 0;
+  background: #FAFAFA;
+  font-size: 1rem;
+  margin: 2px;
+}
+
+.filter-items .active{
+  font-weight: bold;
+}
+
 .container{
   display: flex;
   flex-wrap: wrap;
@@ -95,4 +182,5 @@ export default{
 .container p{
   margin-top: 10px;
 }
+
 </style>
