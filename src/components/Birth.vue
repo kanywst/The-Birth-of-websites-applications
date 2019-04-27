@@ -12,9 +12,19 @@ const search = (keyword,items) => {
   }
   return keyword_items;
 }
+//type検索
+const type_search = (type,items) => {
+  var filtered_items = [];
+  for(var i in items){
+    var pre_name = items[i];
+    if(pre_name.type.indexOf(type) !== -1){
+      filtered_items.push(pre_name);
+    }
+  }
+  return filtered_items;
+}
 
 export default{
-
   data(){
     return{
       isActive: 'All',
@@ -25,10 +35,10 @@ export default{
       filter_type_list: ['All','SNS','EC','portal site','IT','internet','porn','hardware','software','search engine','blog','video sharing','image management','search engine','knowledge market','social news','online storage','online database','version control','messenger','streaming','short URL','consulting'],
       //nationality
       filter_nationality: '',
-      filter_nationality_list: ['japan','america','germany','ireland','china'],
+      filter_nationality_list: ['日本','アメリカ','ドイツ','アイルランド','中国','韓国','カナダ','ハンガリー'],
       //era
       filter_era: '',
-      filter_era_list: ['heisei','showa','taisho','meiji'],
+      filter_era_list: ['平成','昭和','大正','明治'],
       //jsonファイルを読み込む
       items: require("../../info.json")
     }
@@ -42,27 +52,21 @@ export default{
     filteredItems(){
       if(this.active){
         //type
-          if(this.filter_type != ''){
-            var filtered_items = [];
-            for(var i in this.items){
-              var pre_name = this.sortedItemsByDate[i];
-              if(pre_name.type.indexOf(this.filter_type) !== -1){
-                filtered_items.push(pre_name);
-              }
-            }
-            //検索
-            if(this.keyword != ''){
-              return search(this.keyword,filtered_items);
-            }else{
-              return filtered_items;
-            }
-          }
-        }else{
+        if(this.filter_type != ''){
+          var filtered_items = type_search(this.filter_type,this.sortedItemsByDate);
+          //検索
           if(this.keyword != ''){
-            return search(this.keyword,this.sortedItemsByDate);
+            return search(this.keyword,filtered_items);
           }else{
-            return this.sortedItemsByDate;
+            return filtered_items;
           }
+        }
+      }else{
+        if(this.keyword != ''){
+          return search(this.keyword,this.sortedItemsByDate);
+        }else{
+          return this.sortedItemsByDate;
+        }
       }
     }
   },
@@ -74,6 +78,15 @@ export default{
       }else{
         this.active = true;
         this.filter_type = event;
+      }
+    },
+    counts(type){
+      if(type == 'All'){
+        return this.items.length;
+      }else{
+        console.log(search(type,this.items));
+        var count = type_search(type,this.items).length;
+        return count;
       }
     }
   }
@@ -90,27 +103,33 @@ export default{
     <div class="filter-items-group">
       <!-- type -->
       <div class="filter-items">
-        <span v-for="filter in filter_type_list">
-          <button href="#" v-on:click="type_filter(filter)" :class="{'active': isActive === filter}">{{ filter }}</button>
-        </span>
+        <ul>
+          <li v-for="filter in filter_type_list">
+              <button href="#" v-on:click="type_filter(filter)" :class="{'active': isActive === filter}">{{ filter }}({{ counts(filter) }})</button>
+          </li>
+        </ul>
       </div>
       <!-- nationality -->
       <div class="filter-items">
-        <span class="filter-item" v-for="filter in filter_nationality_list">
-          <button v-on:click="type_filter(filter)" :class="{'active': isActive === filter}">{{ filter }}</button>
-        </span>
+        <ul>
+          <li v-for="filter in filter_nationality_list">
+              <button v-on:click="type_filter(filter)" :class="{'active': isActive === filter}">{{ filter }}({{ counts(filter) }})</button>
+          </li>
+       </ul>
       </div>
       <!-- era -->
       <div class="filter-items">
-        <span v-for="filter in filter_era_list">
-          <button v-on:click="type_filter(filter)" :class="{'active': isActive === filter}">{{ filter }}</button>
-        </span>
+        <ul>
+          <li v-for="filter in filter_era_list">
+              <button v-on:click="type_filter(filter)" :class="{'active': isActive === filter}">{{ filter }}({{ counts(filter) }})</button>
+          </li>
+        </ul>
       </div>
     </div>
     <div class="container">
       <div v-for="item in filteredItems" :key="item.name">
         <section>
-          <h1>{{ item.date }}</h1>
+          <h1>{{ item.date }} <img :src="'../../static/flag/' + item.nationality + '.png'"></h1>
           <p>{{ item.name }}</p>
           <img :src="'../../static/' + item.img" >
           <p>{{ item.description }}</p>
@@ -144,12 +163,37 @@ export default{
 .filter-items {
   text-align: center;
 }
-.filter-items button{
+
+.filter-items ul{
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 0.8em;
+  justify-content: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0 0 15px 0;
+}
+
+@media screen and ( min-width: 700px ){
+  .filter-items li:not(:first-of-type):before {
+    content: ' - ';
+    display: inline-block;
+    margin: 0 2px;
+    padding: 0 5px;
+  }
+}
+
+.filter-items li button{
   /*outline: 0;*/
   border: 0;
   background: #FAFAFA;
-  font-size: 1rem;
-  margin: 2px;
+  font-size: 1em;
+  margin: 0;
+  display: inline-block;
+  min-width: 40px;
+  padding: 10px 10px;
+  text-align: center;
 }
 
 .filter-items .active{
@@ -177,6 +221,11 @@ export default{
 
 .container h1{
   font-size: 1.5rem;
+}
+
+.container h1 img{
+  height: 1rem;
+  width: auto;
 }
 
 .container p{
