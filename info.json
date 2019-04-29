@@ -2,7 +2,7 @@
   {
     "date": "1998-09-04",
     "name": "Google",
-    "type": "internet,アメリカ,平成",
+    "type": "internet,search engine,アメリカ,平成",
     "img": "google.png",
     "nationality": "United-States-of-America",
     "description": "スタンフォード大学の博士課程に在籍していたラリー・ペイジとセルゲイ・ブリンによって創業された。「世界中の情報を整理し、世界中の人々がアクセスできて使えるようにすること」を経営理念に掲げている。非公式なスローガンには「邪悪になるな (Don't be evil.)」がある。移転後の本社はGoogleplexという愛称で呼ばれている。"
@@ -18,7 +18,7 @@
   {
     "date": "1981-06-25",
     "name": "Microsoft",
-    "type": "software,アメリカ,昭和",
+    "type": "IT,アメリカ,昭和",
     "img": "microsoft.png",
     "nationality": "United-States-of-America",
     "description": "当初は世に登場して間もない8ビットのマイクロプロセッサを搭載したコンピュータ「アルテア」上で動く、BASICインタプリタの開発・販売で成功を収めた。MS-DOSを改良するほかに各機種用のBASICやC言語・FORTRANなどのコンパイラの開発を手がける一方、Altoの見学などMS-DOS上で動作するGUIシステム「Windows」の開発に注力した。"
@@ -34,7 +34,7 @@
   {
     "date": "1995-03-01",
     "name": "Yahoo",
-    "type": "portal site,アメリカ,平成",
+    "type": "portal site,search engine,アメリカ,平成",
     "img": "yahoo.png",
     "nationality": "United-States-of-America",
     "description": "1994年、スタンフォード大学のジェリー・ヤンとデビッド・ファイロによってウェブディレクトリとして始められた。しかし、2000年代後半にはグーグルやフェイスブックとの競争に敗れて、検索エンジンやポータルサイトなどの主力事業の競争力が低下することになった。"
@@ -58,7 +58,7 @@
   {
     "date": "1996-01-31",
     "name": "Yahoo!Japan",
-    "type": "portal site,日本,平成",
+    "type": "portal site,search engine,日本,平成",
     "img": "yahoojapan.png",
     "nationality": "Japan",
     "description": "2009年、1日平均19億のアクセス数を誇り、日本における検索エンジンとしては過半数のシェアを獲得しており、各検索プロバイダを抑えて業界トップの座にある。ただし2010年9月以降からYahoo!独自の検索エンジンからGoogleの検索エンジンへ徐々に移行されており、移行が完了すればGoogleの検索シェアが98%近くとなり、日本で一番使われていることになる。"
@@ -90,7 +90,7 @@
   {
     "date": "2001-01-15",
     "name": "Wikipedia",
-    "type": "internet encyclopedia,アメリカ,平成",
+    "type": "service,アメリカ,平成",
     "img": "wikipedia.png",
     "nationality": "United-States-of-America",
     "description": "ウェブサイトには広告は一切掲載せず、資金的には個人や団体などからの寄付により運営している。記事の自由な複製・改変を認める「GFDL」というコピーレフトなライセンスとインターネットを通じ自由に文章の編集が行えるウィキシステムを採用し、誰もが新規記事の執筆や既存の記事の編集を行えるようになっている。"
@@ -106,7 +106,7 @@
   {
     "date": "2003-05-27",
     "name": "WordPress",
-    "type": "blog,software,アメリカ,平成",
+    "type": "blog,アメリカ,平成",
     "img": "wordpress.png",
     "nationality": "United-States-of-America",
     "description": "オープンソースのブログソフトウェアである。PHPで開発されており、データベース管理システムとしてMySQLを利用している。単なるブログではなくCMSとしてもしばしば利用されている。b2/cafelogというソフトウェアのフォークとして開発、2003年5月27日に初版がリリースされた。"
@@ -154,7 +154,7 @@
   {
     "date": "2009-02-23",
     "name": "imgur",
-    "type": "image management,アメリカ,平成",
+    "type": "service,アメリカ,平成",
     "img": "imgur.png",
     "nationality": "United-States-of-America",
     "description": "オハイオ大学で計算機科学を学んでいたアラン・シャーフが「搾取しない画像管理サービス」と称するサービスは同種のサービスにありがちだったユーザビリティの問題を受けて開発した。当初はRedditのオンラインコミュニティ向けに設計されていたが、サービス開始からたちまち閲覧数が1日1,000以上に上り、5ヶ月間で100万に達した。ウェブサイトはRedditやDiggといったソーシャルニュースに取り上げられて人気が大幅に上昇することになった。"
@@ -194,7 +194,7 @@
   {
     "date": "1996",
     "name": "Alexa Internet",
-    "type": "internet,アメリカ,平成",
+    "type": "service,アメリカ,平成",
     "img": "alexa.png",
     "nationality": "United-States-of-America",
     "description": "ウェブサイトの利用状況に関するデータを集め、ウェブサイトがどれだけの人に見られているかを調査している。alexa.comでは、ドメインへの1日当たりのアクセス数や訪問者数、直帰率、世界および国内におけるランキングなどを確認できる。なお、Alexa InternetはWayback Machineのデータ提供元でもある"
@@ -282,7 +282,7 @@
   {
     "date": "2005",
     "name": "Reddit",
-    "type": "social news,アメリカ,平成",
+    "type": "service,アメリカ,平成",
     "img": "reddit.png",
     "nationality": "United-States-of-America",
     "description": "redditはサンフランシスコに拠点を置く。スティーブ・ホフマンとアレクシス・オハニアが2005年に創設し、Y Combinatorから初期の出資を得た。創設チームにはクリストファー・スローが2006年1月に加わり、Infogamiの合併の結果、アーロン・スワーツが同年2月に加わった。合併企業はnot a bugとしても知られている。"
@@ -290,7 +290,7 @@
   {
     "date": "2007",
     "name": "Dropbox",
-    "type": "online storage,アメリカ,平成",
+    "type": "service,アメリカ,平成",
     "img": "dropbox.png",
     "nationality": "United-States-of-America",
     "description": "Dropboxは、マサチューセッツ工科大学の学生（当時）であるドリュー・ヒューストンとアラシュ・フェルドーシにより2007年に設立されたサービスで、2008年3月にクローズドベータを開始し、同年9月に正式サービスをスタート。2011年4月には日本語に正式対応した"
@@ -298,7 +298,7 @@
   {
     "date": "2008-04",
     "name": "GitHub",
-    "type": "version control,アメリカ,平成",
+    "type": "service,アメリカ,平成",
     "img": "github.png",
     "nationality": "United-States-of-America",
     "description": "Ruby on RailsおよびErlangで記述されており、アメリカのカリフォルニア州サンフランシスコ市に拠点を置くGitHub社によって保守されている。2018年6月4日にマイクロソフトがGitHub社を75億USドル（約8200億円）で買収すると発表。"
@@ -306,7 +306,7 @@
   {
     "date": "2009",
     "name": "WhatsApp",
-    "type": "messenger,アメリカ,平成",
+    "type": "SNS,アメリカ,平成",
     "img": "whatsapp.png",
     "nationality": "United-States-of-America",
     "description": "WhatsApp Incは、カリフォルニア州サンタクララで2009年に元Yahoo!社員のブライアン・アクトンとジャン・コウムが設立した。社名のWhatsAppは、「What's Up（どうしてる？）」と「App（アプリ）」を掛けた駄洒落に由来する。"
@@ -338,7 +338,7 @@
   {
     "date": "2011-06",
     "name": "Twitch",
-    "type": "streaming,アメリカ,平成",
+    "type": "video,アメリカ,平成",
     "img": "twitch.png",
     "nationality": "United-States-of-America",
     "description": "2011年6月に総合的なライブストリーミング配信サイト Justin.tv から、コンピュータゲームに特化したプラットフォームとして派生して立ち上げられた。運営はサイト名と同名の組織が行っていたが、2014年8月、AmazonがTwitchを買収したことを正式に発表。"
@@ -362,7 +362,7 @@
   {
     "date": "1998",
     "name": "Internet Movie Database",
-    "type": "online database,アメリカ,平成",
+    "type": "service,アメリカ,平成",
     "img": "imdb.png",
     "nationality": "United-States-of-America",
     "description": "IMDbでは映画上映スケジュールや予告編をチェックできるほか、写真ギャラリーやテレビ番組の放送予定、DVDの発売情報、 人気チャートの閲覧や、映画情報を共有することができ、150万本以上の映画とテレビ番組にアクセスできる。"
@@ -378,7 +378,7 @@
   {
     "date": "2008",
     "name": "Bitly",
-    "type": "short URL,アメリカ,平成",
+    "type": "service,アメリカ,平成",
     "img": "bitly.png",
     "nationality": "United-States-of-America",
     "description": "サービス開始は2009年。創業から間もなくTwitterが同社の短縮URLサービスを採用したことで、短縮URL業界でも大手といえるシェアを獲得した。なお、Twitterは後に自社独自の短縮URLに移行した。"
@@ -514,7 +514,7 @@
   {
     "date": "2011-06-23",
     "name": "LINE",
-    "type": "messenger,日本,平成",
+    "type": "SNS,日本,平成",
     "img": "line.svg",
     "nationality": "Japan",
     "description": "当時「NHN 日本」であったLINE株式会社会長でNHN創業者の李海珍が、家族や親戚と連絡を取ろうとする東日本大震災被災者の映像を見て発案し、自ら日本に滞在して開発プロジェクトを推進した。規模が拡大した本社の代わりに小さな組織の速やかな意思決定力と集中力を活用するため、韓国本社ではなく、日本に滞在した李海珍推進のもとNHN 日本が開発を担当した。開発陣の国籍は日本、韓国、米国、中国などで、各自が母国語へ翻訳したアプリケーションを手掛けている。"
@@ -546,7 +546,7 @@
   {
     "date": "1989",
     "name": "Accenture",
-    "type": "consulting,アイルランド,昭和",
+    "type": "IT,アイルランド,昭和",
     "img": "accenture.svg",
     "nationality": "Ireland",
     "description": "アンダーセン・コンサルティングは社内公募で新社名を募集、最終的に“accent”と“future”（accent on future）の造語であるaccentureを選定した。社名変更は2001年1月1日に行われ、アンダーセン・コンサルティングの社名は20世紀と共に消滅した。"
@@ -750,5 +750,237 @@
     "img": "haskell.svg",
     "nationality": "United-Kingdom",
     "description": "1985年、遅延関数言語である Miranda がリサーチ・ソフトウェア社によって発表された。1987年にはこのような非正格な純粋関数型プログラミング言語が十二以上存在していたが、そのうち最も広く使われていた Miranda はパブリックドメインではなかった。オレゴン州ポートランドで開催されたFPCA'87において開かれた会議中に、遅延関数型言語のオープンな標準を作成するための委員会が発足されるべき、という強い合意が参加者のあいだで形成された。"
+  },
+  {
+    "date": "1881",
+    "name": "Oki",
+    "type": "hardware,日本,明治",
+    "img": "oki.svg",
+    "nationality": "Japan",
+    "description": "日本最初の通信機器メーカーとして1881年（明治14年）創業以来、130年以上の歴史をもつ。長年にわたり電話交換機の製造を行ってきた経緯から、いわゆる「電電ファミリー」と呼ばれる企業であり、旧・日本電信電話公社以来の関係から、日本電信電話株式会社・NTTグループとの関係が強い。"
+  },
+  {
+    "date": "1965-04-01",
+    "name": "NRI",
+    "type": "IT,日本,昭和",
+    "img": "nri.png",
+    "nationality": "Japan",
+    "description": "日本初の本格的な民間シンクタンク[2]である株式会社野村総合研究所 (NRI) と、日本で初めて商用コンピュータを導入したシステム開発会社である野村コンピュータシステム株式会社 (NCC) が合併し、現在の野村総合研究所が誕生した。この合併により、リサーチ、コンサルティング、ITソリューション、システム運用等をトータルに提供する会社となる。"
+  },
+  {
+    "date": "1977",
+    "name": "ASCII",
+    "type": "IT,日本,昭和",
+    "img": "ascii.svg",
+    "nationality": "Japan",
+    "description": "1977年（昭和52年）に当時雑誌『I/O』（アイオー）の編集者であった西和彦、郡司明郎、塚本慶一郎（後に独立してインプレスを設立）らが独立し月刊アスキーなどの雑誌を発行するために設立した会社が、アスキー（旧法人）である。"
+  },
+  {
+    "date": "1981-06-02",
+    "name": "JustSystems",
+    "type": "IT,日本,昭和",
+    "img": "justsystems.svg",
+    "nationality": "Japan",
+    "description": "1983年、PC-100対応日本語ワープロソフト「JS-WORD」を開発したことを契機に日本語ワープロソフトの開発・販売に進出し、1985年には同社の看板製品となる「一太郎」を発売。以後、バージョンアップを重ねるごとに人気を高め、一太郎はDOS版日本語ワープロの代名詞的存在となった。コンピュータ上の日本語処理について熱心に研究しており、同社のかな漢字変換ソフトウェア「ATOK」は高い変換精度を有する。XML関連技術の研究開発にも積極的でGoogle、マイクロソフト、アップル、IBM、サン・マイクロシステムズ、ヒューレット・パッカードらとUnicodeコンソーシアムに参加していた日本で唯一の企業である。"
+  },
+  {
+    "date": "1999-08-12",
+    "name": "livedoor",
+    "type": "IT,日本,平成",
+    "img":"livedoor.svg",
+    "nationality": "Japan",
+    "description": "一般的なISP事業においては、事業運営に必要なコストを会員からの月会費および接続料によって賄っているが、ライブドアの行った無料サービスでは、当初は「常時バナー広告が表示される専用のウェブブラウザを使ってもらうことで、民間放送のように広告料によって賄おう」というビジネスモデルを採用していた。他のISPと異なり、専用ブラウザ以外によるダイヤルアップ接続はできなかった。ただこのビジネスモデルはライブドアが初めてではなく、すでにアメリカではPC端末も含めて無料というサービスが普及していた。"
+  },
+  {
+    "date": "1982-02-24",
+    "name": "Sun Micro Systems",
+    "type": "IT,アメリカ,昭和",
+    "img": "sunmicrosystems.svg",
+    "nationality": "United-States-of-America",
+    "description": "UNIX戦争に伴う各ベンダとの競合状態において、ビル・ジョイなどのUNIX神話に名を残したスーパーエンジニアの功績やいち早いインターネットに向けたサーバ群の取り組みによりアメリカ合衆国を中心とする世界市場において、1990年代前半、サンは一人勝ちの様相を示した。日本市場では富士通・東芝・CTCなどと提携し、通信系や企業基幹系に浸透しつつあったUNIX市場において、その価格性能比と知名度で進出した。その結果、日本市場では競合するHP・日本電気陣営や、IBM・日立陣営などと並び、有力な商用UNIX系ベンダーとなった。"
+  },
+  {
+    "date": "1993-04",
+    "name": "NVIDIA",
+    "type": "hardware,アメリカ,平成",
+    "img": "nvidia.svg",
+    "nationality": "United-States-of-America",
+    "description": "デスクトップパソコンやノートパソコン向けのGPUであるGeForceシリーズ、プロフェッショナル向けでワークステーションに搭載されるQuadroやNVSシリーズで有名だが、スーパーコンピュータ向けの演算専用プロセッサであるTesla（テスラ）や、携帯電話やスマートフォン・タブレット端末向けのSoC（システム・オン・チップ）であるTegra（テグラ）の開発販売も手掛ける。また近年は、自動運転技術の開発にも力を入れている。"
+  },
+  {
+    "date": "1998",
+    "name": "VMware",
+    "type": "IT,アメリカ,平成",
+    "img": "vmware.svg",
+    "nationality": "United-States-of-America",
+    "description": "現代の業務用ITシステム環境では、サーバーやクライアント、ネットワーク、クラウド環境等の仮想化によりシステムを効率的に運用することが一般的となってきているが、その仮想環境を構築する際のデファクトスタンダードとして用いられるのがVMware製品群である。IT基盤製品が中心であるため、システム利用者が直接VMware製品を目にするケースはそれほど多くはないものの、日本においてもほぼ全ての企業で採用されている。"
+  },
+  {
+    "date": "2009-03",
+    "name": "Uber",
+    "type": "IT,アメリカ,平成",
+    "img": "uber.png",
+    "nationality": "United-States-of-America",
+    "description": "Uberは2009年3月にトラビス・カラニックとギャレット・キャンプにより設立。2015年の予約売上は108億4000万ドル（約1兆3000億円）と推定されている。特徴としては、一般的なタクシーの配車に加え、一般人が自分の空き時間と自家用車を使って他人を運ぶ仕組みを構築している点で、顧客が運転手を評価すると同時に、運転手も顧客を評価する「相互評価」を実施している。"
+  },
+  {
+    "date": "2003-08",
+    "name": "Myspace",
+    "type": "SNS,アメリカ,平成",
+    "img": "myspace.svg",
+    "nationality": "United-States-of-America",
+    "description": "現在見るようなソーシャル・ネットワーキング・サービスが作成される以前、MySpace.comというドメインは1998年にオンラインでのファイル蓄積・ファイル共有サービスを行う企業によって取られていた。このサービスは登録無料で、ユーザーは小さい容量のスペースを割り当てられ、新しいユーザーを紹介するごとに使える容量が増加するという仕組みだった。しかしサービスの遅さと収入の伸び悩みから、このサイトは閉鎖されユーザーの全情報を2001年に売却した。"
+  },
+  {
+    "date": "2002",
+    "name": "Friendster",
+    "type": "SNS,カナダ,平成",
+    "img": "friendster.png",
+    "nationality": "Canada",
+    "description": "まだMyspace（2003年開始）、Facebook（2004年開始）が無く、他のソーシャル・ネットワーキング・サイトも広く使われる前の[14]2002年、Friendsterはカナダのコンピュータプログラマーであるジョナサン・エイブラムスが設立した[15]。Pets.com（1997年開始）のようなその他いくつかの小規模なソーシャル・ネットワーキング・サイトが先行していた中でFriendsterは会員数が100万人に達したサイトの一角になるまで成長した。"
+  },
+  {
+    "date": "1997",
+    "name": "SixDegrees.com",
+    "type": "SNS,アメリカ,平成",
+    "img": "sixdegrees.jpg",
+    "nationality": "United-States-of-America",
+    "description": "1997年〜2001年に運営されていたサイトです。サービス名である「Six degress」とは、自分の知り合いを6人たどれば、全世界中の人と連絡が取れるという「Six Degrees of Separations」（6次の隔たり）理論に由来しています。「6次の隔たり」はSNSにとっては重要な要素であり、日本SNSサイト「Gree」はこの「Six Degrees of Separations」から命名されています。"
+  },
+  {
+    "date": "2004-02-21",
+    "name": "GREE",
+    "type": "SNS,日本,平成",
+    "img": "gree.svg",
+    "nationality": "Japan",
+    "description": "創業者の田中良和が個人的な趣味の一環として一人でGREEを開発し、サービスの提供を開始。その後、2004年12月に設立されたグリー株式会社によってGREEの本格的な運営が開始された。GREEは無料で登録でき、登録には携帯電話（au、docomo、SoftBankのいずれか）のメールアドレスが必要となる。現在はMobageとともに基本無料の携帯電話向けブラウザゲームを前面に押し出したSNSとして知られるが、当初はmixiのように交流機能を主軸としたPC向けのSNSだった。"
+  },
+  {
+    "date": "2006-02-07",
+    "name": "Mobage",
+    "type": "SNS,日本,平成",
+    "img": "mobage.png",
+    "nationality": "Japan",
+    "description": "携帯電話端末専用のためパソコン、PHS端末からのアクセスは一切出来なかったが、2008年7月2日以降、全会員を対象にパソコンやiPhone・W-ZERO3シリーズ等スマートフォンへの対応のためのPC版のクローズドβをリリースし[7][8]、7月24日からは全会員対象のオープンβに移行した。その後PC向けサービスは「Yahoo!モバゲー」、スマートフォン向けサービスは「Mobage for Smartphone」に移行している。携帯電話会社による公式サイトではなく、いわゆる勝手サイトである。"
+  },
+  {
+    "date": "1999-02",
+    "name": "Tencent QQ",
+    "type": "SNS,中国,平成",
+    "img": "qq.svg",
+    "nationality": "China",
+    "description": "中国本土において最も普及しているコミュニケーションツールであり、とくに若者の間で支持され、携帯やメールと同じ感覚で使用されている。一般家庭だけでなく、ネットカフェ、勤務先、学校などの公衆用のパソコンにもよくインストールされている。"
+  },
+  {
+    "date": "2003-04",
+    "name": "Skype",
+    "type": "SNS,エストニア,平成",
+    "img": "skype.svg",
+    "nationality": "Estonia",
+    "description": "ニコラス・センストロムとヤヌス・フリスにより、グローバル P2P テレフォニー カンパニー（世界規模のP2P電話事業者）としてSkype社設立。4月、skype.com と skype.net がレジストラに登録された。"
+  },
+  {
+    "date": "2004-09-15",
+    "name": "Ameba",
+    "type": "SNS,日本,平成",
+    "img": "ameba.svg",
+    "nationality": "Japan",
+    "description": "サイバーエージェントは2004年にアメーバブログをスタートし、その後も各種ネットサービスを数々送り出してきた。その中で、スマートフォンの普及に伴いサービスをスマートフォン向きのものへシフトしていくにあたり、これらのサービスを包括したプラットフォームとして「Ameba」を位置づけた。"
+  },
+  {
+    "date": "2004-03-03",
+    "name": "mixi",
+    "type": "SNS,日本,平成",
+    "img": "mixi.png",
+    "nationality": "Japan",
+    "description": "サービス名の由来は、公式サイトの説明[2]によると、「mix（交流する）」と「i（人）」を組み合わせた造語で、利用者同士の交流が深まることを願って名づけられたものである。当初mixiは、既に入会している登録ユーザーから招待を受けないと利用登録ができないという、完全招待制を採用していた。この方式は、ユーザーそれぞれの素性が明らかになり、健全で安心感のある居心地の良いコミュニティを維持するという目的で採用されている。 なお、招待した側とされた側は自動的にマイミクシィ（友人登録）となり、登録後3ヶ月間は外すことが出来ない。"
+  },
+  {
+    "date": "2011-01-21",
+    "name": "WeChat",
+    "type": "SNS,中国,平成",
+    "img": "wechat.png",
+    "nationality": "China",
+    "description": "テンセントが以前より提供していた、インスタントメッセンジャーテンセントQQの発展型として、メッセンジャー機能とソーシャル・ネットワーキング・サービス機能の融合が特徴と評される。金盾の影響を受けない。世界版であるWeChatでは、Facebookアカウントでの登録が可能である。テンセントは、豊富な資金力を背景にWeChatの海外展開を進めているとされ、世界的各地に遍在する中国人ユーザーからの紹介も、普及の一助になっていると言われる。"
+  },
+  {
+    "date": "2009-08-14",
+    "name": "Weibo",
+    "type": "SNS,中国,平成",
+    "img": "weibo.png",
+    "nationality": "China",
+    "description": "2007年から、twitterに代表される、マイクロブログサービスが国際的に流行していたが、中国は金盾による通信限制のため、独自にマイクロブログサービスを開発し、最初の新浪微博のテストバージョンを2009年8月14日に公開した。"
+  },
+  {
+    "date": "2011-06-28",
+    "name": "Google+",
+    "type": "SNS,アメリカ,平成",
+    "img": "googleplus.svg",
+    "nationality": "China",
+    "description": "2011年6月、プロジェクトに1年間を費やした末にサービスが開始された。Googleでは新サービスの船出を記念して、プロジェクトに携わった数百人の従業員に水兵帽を配った。2018年12月10日には米グーグル社がGoogle+ APIに個人情報が漏洩する可能性があるバグが存在していたことを発表し、Google+の個人向けサービスを2019年4月に4ヶ月前倒しして終了すると発表した。同社は個人情報を不正に取得された形跡はないとしている。"
+  },
+  {
+    "date": "1990",
+    "name": "Archie",
+    "type": "search engine,カナダ,昭和",
+    "img": "archie.jpg",
+    "nationality": "Canada",
+    "description": "史上初のインターネット検索エンジンと呼べるものである。1990年にモントリオールのマギル大学の学生が最初の実装を開発した。 初期のarchieは単純にFTPサーバに接続してファイルの一覧を取得し（サーバに負荷をかけないよう、月に一度程度）、UNIXのgrepコマンドで検索していた。 後に、より効率のよいフロントエンド・バックエンドが開発され、archieは単なるローカルのツールにとどまらず、インターネット上のいくつものサイトで提供される人気の高いサービスとなった。 "
+  },
+  {
+    "date": "1994",
+    "name": "Excite",
+    "type": "search engine,アメリカ,平成",
+    "img": "excite.png",
+    "nationality": "United-States-of-America",
+    "description": "1994年にJoe Krausら6人のスタンフォード大学出身の学生らによって、Exciteの前身であるアーキテクスト・ソフトウェアが設立された。ここで自動ハイパーテキスト・リンキング、サブジェクト・グルーピング、自動アブストラクティングなどの機能を備えた検索抽出ツール（エキサイトサーチ）が開発され、エキサイトサービスとしてサービスを開始した。"
+  },
+  {
+    "date": "2005-03-15",
+    "name": "Dailymotion",
+    "type": "video,フランス,平成",
+    "img": "dailymotion.svg",
+    "nationality": "France",
+    "description": "利用登録者数100万人以上、ユニーク数は750万以上というヨーロッパで最も人気が高い動画共有サイトである。日々、9000以上の新しい動画がアップロードされ、1日当たり約1600万以上のページビューがあるという。Dailymotion は他の動画・写真投稿サイト同様、ユーザが画像につけるタグによって動画の検索ができる。登録したユーザーがアップロード可能な動画は、2GB以内で長さは60分まで、最大解像度は3840x2160（4KウルトラHD）である。"
+  },
+  {
+    "date": "2004-11",
+    "name": "Vimeo",
+    "type": "video,アメリカ,平成",
+    "img": "vimeo.svg",
+    "nationality": "United-States-of-America",
+    "description": "2010年3月現在で、Vimeo には300万以上のメンバーがおり、1日に平均16,000本以上の新たな映像がアップロードされている。そのうちおよそ1割がHDであった[6]。2017年9月26日にVimeoは、ライブ動画配信プラットフォームを導入するために既存のライブ動画配信サービスのLivestreamを買収した。この買収によりLivestreamは、「Vimeo・Livestream」として組み込まれ、Vimeoは、新サービス「Vimeo Live」を開始した。"
+  },
+  {
+    "date": "2007",
+    "name": "RedTube",
+    "type": "porn,アメリカ,平成",
+    "img": "redtube.png",
+    "nationality": "United-States-of-America",
+    "description": "RedTube（レッドチューブ）は、アメリカのアダルト動画共有サービス。Pornhub、YouPornと共にMindGeekが所有している。"
+  },
+  {
+    "date": "2004-10",
+    "name": "Pandora TV",
+    "type": "video,韓国,平成",
+    "img": "pandoratv.png",
+    "nationality": "Korea,-South",
+    "description": "かつては著作権問題を抱えていたが、韓国国内では著作権問題は解決している。また青瓦台や警察庁など行政機関が、パンドラTVを使った定例記者会見映像や広報映像の配信を行ったり、ケーブルテレビ局との提携による番組配信、著作権者の許可を得て『NARUTO -ナルト-』・『攻殻機動隊』・『BLEACH』などのアニメ作品を放映しているが、明らかに無許可の日本アニメやドラマなどもアップロードされ続けている。日本国内では24時間モニタリングされ、違法または問題となるコンテンツがアップされたら削除するようにしている。"
+  },
+  {
+    "date": "2016-09",
+    "name": "TikTok",
+    "type": "SNS,中国,平成",
+    "img": "tiktok.png",
+    "nationality": "China",
+    "description": "2017年11月9日、TikTokの親会社であるByteDanceは、米国の10代をターゲットにした人気のソーシャルメディアプラットフォームを所有するmusical.lyを買収。買収額は最大で10億ドルを費やした。2018年現在、150か国以上・75の言語で利用が可能。TikTokは、Appleが発表した「2018年ベストアプリ」のランキングによると、LINEやGoogleMapなどの代表的なアプリを抑え、日本の無料アプリの年間人気ナンバーワンとなった。"
+  },
+  {
+    "date": "2008-05-19",
+    "name": "LiveLeak",
+    "type": "video,アメリカ,平成",
+    "img": "liveleak.png",
+    "nationality": "United-States-of-America",
+    "description": "現実に発生した戦争・テロ・犯罪・事故・災害などの出来事をありのままに配信することを標榜するニュースサイトの一種だが、その中には一般的に残虐で猟奇的であると受け止められる記事が多く含まれていることでも知られている。なお、英語圏においてグロテスクな写真（グロ画像）や悪趣味なビデオ（グロ動画）が含まれるショックサイトと呼ばれる分野に属しており、同種サイトの Ogrish.com は2006年10月から LiveLeak へ統合されてリダイレクトされるようになった。"
   }
 ]
