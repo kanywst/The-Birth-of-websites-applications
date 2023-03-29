@@ -1,5 +1,11 @@
 # The Birth of websites
 
-有名なIT企業やWebサイトが作られた日をまとめたWebサイトです。
+This Web site summarizes the days when famous IT companies were created
 
-https://thebirthofwebsites.tk/
+https://kanywst.top/thebirthofwebsites
+
+## Usage
+
+```bash
+yarn start
+```

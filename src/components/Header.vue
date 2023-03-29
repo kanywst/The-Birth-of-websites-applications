@@ -3,7 +3,7 @@ export default{
   data(){
     return{
       title: "The Birth of websites",
-      description: "IT企業、WEBサービス、アプリーケーションの誕生日を知っていますか？"
+      description: "Do you know the birthdays of IT companies, web services, and applications?"
     }
   }
 }

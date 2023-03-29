@@ -97,7 +97,7 @@ export default{
   <div>
     <!-- Search -->
     <div class="form-group">
-      <input type="text" v-model="keyword"　placeholder="Search">
+      <input type="text" v-model="keyword" placeholder="Search">
     </div>
     <!-- Filter -->
     <div class="filter-items-group">
@@ -115,7 +115,7 @@ export default{
           <li v-for="filter in filter_nationality_list">
               <button v-on:click="type_filter(filter)" :class="{'active': isActive === filter}">{{ filter }}({{ counts(filter) }})</button>
           </li>
-       </ul>
+        </ul>
       </div>
       <!-- era -->
       <div class="filter-items">

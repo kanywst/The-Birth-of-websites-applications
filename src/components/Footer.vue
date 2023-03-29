@@ -2,7 +2,7 @@
 export default{
   data(){
     return {
-      copyright: "Copyright © The Birth of websites,applications 2019"
+      copyright: "Copyright © The Birth of websites,applications 2023"
     }
   }
 }
